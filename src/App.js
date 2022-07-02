@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Home from './components/Home';
+import Splash from './components/Splash';
+import './components/splash.css';
+import {motion, AnimatePresence} from 'framer-motion';
 
 function App() {
+  // State for splash screen, default => false
+  const [splash, setSplash] = React.useState(true);
+  // Use Timer to remove the splash screen
+  const handleSplash = (e) => {
+    setTimeout(() => {
+      setSplash(false);
+    }, 6000);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-component">
+      {splash? 
+        <Splash handleSplash={handleSplash()}/>
+        :
+        <Home/>
+      }
     </div>
   );
 }

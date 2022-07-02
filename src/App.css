@@ -13,8 +13,15 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
+  
+} */
+.main-component{
+  background: url('./assets/images/Desktop\ -\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +35,23 @@
   color: #61dafb;
 }
 
+/* Media Queries */
+@media only screen and (min-width:0px) and (max-width:479px){
+
+}
+@media only screen and (min-width:480px) and (max-width:767px){
+  
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .main-component{
+    background-position: center;
+  }
+}
+@media only screen and (min-width:1024px) and (max-width:1199px){
+  .main-component{
+    background-position: center;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

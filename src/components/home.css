@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Satisfy&display=swap');
+
+.video video{
+    border-radius:20px;
+    border: 1px solid rgb(236, 232, 232);
+}
+.caption{
+    font-size: 3.3vw !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.home{
+    padding: 20px;
+}
+.kartu{
+    text-align: center;
+}
+.Kartu h1{
+    text-align: center;
+}
+.paper{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(111, 108, 158, 0.89)!important;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin:auto;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.Tombol{
+    background:#554D74 !important;
+    border-radius: 14px !important;
+}
