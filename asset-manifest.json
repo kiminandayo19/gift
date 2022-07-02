@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gift/static/css/main.4d973401.css",
+    "main.js": "/gift/static/js/main.3eb94083.js",
+    "static/js/787.8af72cf0.chunk.js": "/gift/static/js/787.8af72cf0.chunk.js",
+    "static/media/WhatsApp Video 2022-07-03 at 4.27.18 AM.mp4": "/gift/static/media/WhatsApp Video 2022-07-03 at 4.27.18 AM.5cea70b632225d20bbb8.mp4",
+    "static/media/Micah Edwards - Moments (Official Video).mp3": "/gift/static/media/Micah Edwards - Moments (Official Video).367c19251cf9d140ad38.mp3",
+    "static/media/Desktop - 1.png": "/gift/static/media/Desktop - 1.2824929ed13e8ad82433.png",
+    "index.html": "/gift/index.html",
+    "main.4d973401.css.map": "/gift/static/css/main.4d973401.css.map",
+    "main.3eb94083.js.map": "/gift/static/js/main.3eb94083.js.map",
+    "787.8af72cf0.chunk.js.map": "/gift/static/js/787.8af72cf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d973401.css",
+    "static/js/main.3eb94083.js"
+  ]
+}
